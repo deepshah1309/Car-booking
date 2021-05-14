@@ -1,0 +1,22 @@
+$stesbar-background:#08123b;
+$text-color:#ededf0;
+$font-size:2rem;
+.steps-bar{
+    padding-top:0;
+    text-align: center;
+    margin-top: 0;
+    height:200px;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: $stesbar-background;
+    .step-track{
+        font-weight: bolder;
+        font-size: x-large;
+        font-size: $font-size;
+        color:$text-color;
+      
+
+    }
+}
