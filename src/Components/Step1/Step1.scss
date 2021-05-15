@@ -1,0 +1,64 @@
+$buttonbackground:#0f53fb;
+form{
+  margin-top:30px;
+.form-justify{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+}
+.form-parts{
+  display: flex;
+justify-content: center;
+align-items: center
+}
+
+
+.form-group{position:relative;
+padding-left:20px;
+input[type="text"]{
+  color:black;
+  font-size: 1rem;
+  font-weight:bolder;
+}
+}
+.form-control{height: 40px;}
+.form-control:focus{box-shadow:none;}
+
+label{position:absolute; left:10px; top:10px; transition:all 0.3s; color:#999; font-weight:normal;}
+
+
+.form-control ~ label{left:5px; top:-10px; background:#fff; padding:0 5px;}
+
+label.active{left:5px; top:-10px; background:#fff; padding:0 5px;}
+.margin-set{
+  margin-top: 3rem;
+}
+.select{
+  width:480px;
+}
+.travel{
+  width:480px;
+}
+.button-part{
+  text-align: center;
+  .buttons{
+      background-color: $buttonbackground;
+      color:white;
+     
+
+     padding-left: auto;
+     padding-right: auto;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-weight: bolder;
+      width:480px;
+      outline-style: none;
+      border:1px solid $buttonbackground;
+      
+
+  }
+}
+
+  

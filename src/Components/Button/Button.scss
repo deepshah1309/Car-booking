@@ -1,0 +1,20 @@
+$buttonbackground:#0f53fb;
+.button-part{
+    text-align: center;
+    .buttons{
+        background-color: $buttonbackground;
+        color:white;
+       
+  
+       padding-left: auto;
+       padding-right: auto;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-weight: bolder;
+        width:480px;
+        outline-style: none;
+        border:1px solid $buttonbackground;
+        
+ 
+    }
+}

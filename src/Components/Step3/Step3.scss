@@ -1,0 +1,248 @@
+$pencilcolor:#4076fc;
+$buttonbackground:#0f53fb;
+.screentwo{
+    display: flex;
+
+    justify-content: center;
+    place-items: center;
+    margin-top:100px;
+ 
+    .blockpart{
+        display: block;
+        width:400px;
+        .flexset{
+            display:flex;
+            justify-content: space-between;
+            .flexstart{
+                color:#cccecf;
+
+                justify-content: flex-start;
+
+            }
+            .flexend{
+               &-button{
+                   border:0;
+                   background-color: transparent;
+                   outline-style: none;
+                   color:$pencilcolor;
+               }
+            }
+        }
+        .flexset1{
+          display:flex;
+          justify-content: space-between;
+          .flexstart{
+           
+
+            justify-content: flex-start;
+
+          }
+          .flexend1{
+            font-size:2.3rem;
+            font-weight: bolder;
+            &-button{
+                border:0;
+                background-color: transparent;
+                outline-style: none;
+                color:$pencilcolor;
+            }
+            .colorsets{
+              color:#cccecf;
+              font-size:1rem;
+
+            }
+         }
+        }
+        &-line{
+            color:grey;
+        }
+    }
+}
+.fontset{
+    font-weight: bolder;
+    font-size:1rem;
+}
+.fontset1{
+  font-weight: bolder;
+  font-size:1rem;
+}
+
+input#amount{
+    border: none;
+    width:200px;
+    text-align: center;
+    outline-style: none;
+    border-bottom: 1px solid gray;
+}
+input[type="text"]#amount:focus{
+    border:none;
+
+    outline-style: none;
+}
+
+    .centerpart1{
+        display:flex;
+    margin-top:20px;
+    justify-content: center;
+    place-items: center;
+    label{
+    
+        left: 10px;
+        top: 10px;
+        transition: all 0.3s;
+        color:black;
+        font-weight: normal;
+    }
+    
+}
+
+.centerparent{
+
+    display:flex;
+    margin-top:100px;
+    justify-content: center;
+    place-items: center;
+    
+   
+}
+input[type="text"]{
+    font-size:3rem;
+    font-weight: bolder;
+}
+.form-group1{position:relative;
+    padding-left:20px;
+    width:390px;
+    margin-top: 30px;
+    input[type="text"]{
+      color:black;
+      font-size: 1rem;
+      font-weight:bolder;
+      width:390px;
+      border-left:2px solid black;
+      border-top:2px solid black;
+      border-right:2px solid black;
+      outline: none;
+      border-bottom:none;
+    }
+    .form-control{height: 40px;}
+    .form-control:focus{box-shadow:none;}
+    
+    label{position:absolute; left:10px; top:10px; transition:all 0.3s; color:#999; font-weight:normal;}
+    
+    
+    .form-control ~ label{left:5px; top:-10px; background:#fff; padding:0 5px;}
+    
+    label.active{left:5px; top:-10px; background:#fff; padding:0 5px;}
+    .seth{
+   
+ 
+        height:30px;
+        width:394px;
+        font-weight: bolder;
+        background-color:#f8f8f8;
+        border-left:2px solid black;
+        border-bottom:2px solid black;
+        border-right:2px solid black;
+        b{
+            color:green;
+        }
+    }
+}
+.form-group2{position:relative;
+    padding-left:20px;
+    width:390px;
+    margin-top: 30px;
+    input[type="text"]{
+      color:black;
+      font-size: 1rem;
+      font-weight:bolder;
+      width:300px;
+      
+     
+      
+    }
+    .form-control{height: 40px;}
+    .form-control:focus{box-shadow:none;}
+    
+    label{position:absolute; left:10px; top:10px; transition:all 0.3s; color:#999; font-weight:normal;}
+    
+    
+    .form-control ~ label{left:35px; top:-10px; background:#fff; padding:0 5px;}
+    
+    label.active{left:35px; top:-10px; background:#fff; padding:0 5px;}
+    
+}
+.form-group3{position:relative;
+    padding-left:20px;
+    width:400px;
+    margin-top: 30px;
+   
+    input[type="text"]{
+      color:black;
+      font-size: 1rem;
+      font-weight:bolder;
+      width:300px;
+      border:$pencilcolor;
+        border-top:1px solid $pencilcolor;
+        border-bottom:1px solid $pencilcolor;
+        border-right:1px solid $pencilcolor;
+        border-left:1px solid $pencilcolor;
+
+      
+     
+      
+    }
+    .form-control{height: 40px}
+    .form-control:focus{box-shadow:none}
+    
+    label{position:absolute; left:10px; top:10px; transition:all 0.3s; color:#999; font-weight:normal;}
+    
+    
+    .form-control ~ label{left:25px; top:-10px; background:#fff; padding:0 5px;}
+    
+    label.active{left:20px; top:-10px; background:#fff; padding:0 5px;}
+    
+}
+.buttons{
+    background-color: $buttonbackground;
+    color:white;
+    margin-top:30px;
+   
+
+   padding-left: auto;
+   padding-right: auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: bolder;
+    width:480px;
+    outline-style: none;
+    border:1px solid $buttonbackground;
+    
+
+}
+.buttons1{
+    background-color: #cccecf;
+    color:black;
+    margin-top:30px;
+    text-align: center;
+
+   padding-left: auto;
+   padding-right: auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: bolder;
+    width:inherit;
+    outline-style: none;
+    border:1px solid $buttonbackground;
+    
+
+}
+.buttons2{
+  border:0;
+  background-color: transparent;
+  outline-style: none;
+  color:$pencilcolor;
+}
+    
+    
+    
